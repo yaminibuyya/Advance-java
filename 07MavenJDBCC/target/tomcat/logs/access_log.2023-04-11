@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:58:37 +0530] "GET /MavenJDBCC HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:58:38 +0530] "GET /MavenJDBCC/ HTTP/1.1" 200 88 http-bio-9090-exec-3 1097
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:58:41 +0530] "GET /MavenJDBCC/FindAll HTTP/1.1" 200 1655 http-bio-9090-exec-4 1178
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:58:44 +0530] "GET /MavenJDBCC/emp-save.jsp HTTP/1.1" 200 461 http-bio-9090-exec-5 114
+0:0:0:0:0:0:0:1 - - [11/Apr/2023:11:58:57 +0530] "POST /MavenJDBCC/Save HTTP/1.1" 200 1876 http-bio-9090-exec-6 22

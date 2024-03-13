@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EmployeeFindAllController</servlet-name>
+  	<display-name>EmployeeFindAllController</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.EmployeeFindAllController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeSaveController</servlet-name>
+  	<display-name>EmployeeSaveController</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.EmployeeSaveController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UPDATINGController</servlet-name>
+  	<display-name>UPDATINGController</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.UPDATINGController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updateFINDall</servlet-name>
+  	<display-name>updateFINDall</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.updateFINDall</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetByIdController</servlet-name>
+  	<display-name>GetByIdController</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.GetByIdController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeUpdateController</servlet-name>
+  	<display-name>EmployeeUpdateController</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.EmployeeUpdateController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeDeleteController</servlet-name>
+  	<display-name>EmployeeDeleteController</display-name>
+  	<description></description>
+  	<servlet-class>com.ciq.controller.EmployeeDeleteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeeFindAllController</servlet-name>
+  	<url-pattern>/FindAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeSaveController</servlet-name>
+  	<url-pattern>/Save</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UPDATINGController</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updateFINDall</servlet-name>
+  	<url-pattern>/updateFINDall</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetByIdController</servlet-name>
+  	<url-pattern>/getbyid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeUpdateController</servlet-name>
+  	<url-pattern>/eUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeDeleteController</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+ 
+
+ 
+  
+</web-app>
