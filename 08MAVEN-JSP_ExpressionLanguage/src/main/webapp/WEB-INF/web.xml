@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>implictobject</servlet-name>
+  	<display-name>implictobject</display-name>
+  	<description></description>
+  	<servlet-class>com.implicit.implictobject</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PhoneController</servlet-name>
+  	<display-name>PhoneController</display-name>
+  	<description></description>
+  	<servlet-class>com.Model.servlet.Expressionlanguage.PhoneController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>implictobject</servlet-name>
+  	<url-pattern>/implictobj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PhoneController</servlet-name>
+  	<url-pattern>/phone</url-pattern>
+  </servlet-mapping>
+</web-app>
